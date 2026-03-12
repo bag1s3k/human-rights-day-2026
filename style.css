@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Fuzzy Bubbles", sans-serif;
+}
+
+nav {
+    background: black;
+    padding: 2em 5em;
+    display: flex;
+    justify-content: right;
+}
+
+nav #hrefs {
+    margin: 0 10em 0 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
+    margin: 0 1em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
