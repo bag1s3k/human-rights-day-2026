@@ -5,7 +5,10 @@
 
 body {
     font-family: "Fuzzy Bubbles", sans-serif;
+    width: 100%;
+    height: 100%;
 }
+
 
 nav {
     background: black;
@@ -25,4 +28,38 @@ nav a {
     margin: 0 1em;
     font-weight: 700;
     text-transform: uppercase;
+}
+
+#page1 {
+    background: url("images/DEN\ LIDSKÝCH\(3\).png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0 -8em;
+    display: flex;
+}
+
+img {
+    height: 100em;
+    transform: translate(-45%, -10%);
+}
+
+#page1-description {
+    margin: 20em 0em 0 0;
+}
+
+#page1-description h1 {
+    font-size: 10em;
+    font-weight: 900;
+    -webkit-text-stroke: 5px black;
+    color: white;
+}
+
+#page1-description h3 {
+    font-size: 3em;
+    color: white;
+}
+
+#page1-description p {
+    color: white;
+    font-size: 1.5em;
 }
