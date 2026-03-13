@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.text-gradient {
+  color: #FFD900;
+  background-image: linear-gradient(0deg, #FFD900 29%, #FFFBB8 56%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+body {
+    font-family: "Bangers", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    padding: 1.5em 4em;
+    -webkit-text-stroke: 0.1px black;
+	/* clip-path: shape(from 21.16px 6.66px,curve to calc(2.78% + 28.33px) 14.5px with calc(0% + 30px) 1px,curve to calc(8.33% + 25px) 21px with calc(5.56% + 26.67px) 28px,curve to calc(13.89% + 21.67px) 9.5px with calc(11.11% + 23.33px) 14px,curve to calc(19.44% + 18.33px) 3.5px with calc(16.67% + 20px) 5px,curve to calc(25% + 15px) 14px with calc(22.22% + 16.67px) 2px,curve to calc(30.56% + 11.67px) 17px with calc(27.78% + 13.33px) 26px,curve to calc(36.11% + 8.33px) 13.5px with calc(33.33% + 10px) 8px,curve to calc(41.67% + 5px) 10.5px with calc(38.89% + 6.67px) 19px,curve to calc(47.22% + 1.67px) 3.5px with calc(44.44% + 3.33px) 2px,curve to calc(52.78% + -1.67px) 15.5px with calc(50% + 0px) 5px,curve to calc(58.33% + -5px) 18px with calc(55.56% + -3.33px) 26px,curve to calc(63.89% + -8.33px) 14px with calc(61.11% + -6.67px) 10px,curve to calc(69.44% + -11.67px) 14px with calc(66.67% + -10px) 18px,curve to calc(75% + -15px) 13.5px with calc(72.22% + -13.33px) 10px,curve to calc(80.56% + -18.33px) 13.5px with calc(77.78% + -16.67px) 17px,curve to calc(86.11% + -21.67px) 16.5px with calc(83.33% + -20px) 10px,curve to calc(91.67% + -25px) 23.5px with calc(88.89% + -23.33px) 23px,curve to calc(97.22% + -28.33px) 25.5px with calc(94.44% + -26.67px) 24px,curve to calc(100% - 30px) 28.5px with calc(100% - 30px) 27px,curve to calc(100% - 28.5px) 30px with calc(100% - 30px) 30px,curve to calc(100% - 16px) calc(8.33% + 25.00px) with calc(100% - 27px) calc(0% + 30px),curve to calc(100% - 6px) calc(25% + 15.00px) with calc(100% - 5px) calc(16.67% + 20px),curve to calc(100% - 16px) calc(41.67% + 5.00px) with calc(100% - 7px) calc(33.33% + 10px),curve to calc(100% - 25px) calc(58.33% + -5.00px) with calc(100% - 25px) calc(50% + 0px),curve to calc(100% - 18px) calc(75% + -15.00px) with calc(100% - 25px) calc(66.67% + -10px),curve to calc(100% - 16px) calc(91.67% + -25.00px) with calc(100% - 11px) calc(83.33% + -20px),curve to calc(100% - 19.49px) calc(100% - 23.99px) with calc(100% - 21px) calc(100% - 30px),curve to calc(100% - 23.99px) calc(100% - 8.99px) with calc(100% - 17.98px) calc(100% - 17.98px),curve to calc(97.22% - 28.33px) calc(100% - 12px) with calc(100% - 30px) calc(100% - 0px),curve to calc(91.67% - 25px) calc(100% - 14px) with calc(94.44% - 26.67px) calc(100% - 24px),curve to calc(86.11% - 21.67px) calc(100% - 4.5px) with calc(88.89% - 23.33px) calc(100% - 4px),curve to calc(80.56% - 18.33px) calc(100% - 17.5px) with calc(83.33% - 20px) calc(100% - 5px),curve to calc(75% - 15px) calc(100% - 17.5px) with calc(77.78% - 16.67px) calc(100% - 30px),curve to calc(69.44% - 11.67px) calc(100% - 17px) with calc(72.22% - 13.33px) calc(100% - 5px),curve to calc(63.89% - 8.33px) calc(100% - 18px) with calc(66.67% - 10px) calc(100% - 29px),curve to calc(58.33% - 5px) calc(100% - 11.5px) with calc(61.11% - 6.67px) calc(100% - 7px),curve to calc(52.78% - 1.67px) calc(100% - 11.5px) with calc(55.56% - 3.33px) calc(100% - 16px),curve to calc(47.22% - -1.67px) calc(100% - 16.5px) with calc(50% - 0px) calc(100% - 7px),curve to calc(41.67% - -5px) calc(100% - 23px) with calc(44.44% - -3.33px) calc(100% - 26px),curve to calc(36.11% - -8.33px) calc(100% - 20.5px) with calc(38.89% - -6.67px) calc(100% - 20px),curve to calc(30.56% - -11.67px) calc(100% - 23px) with calc(33.33% - -10px) calc(100% - 21px),curve to calc(25% - -15px) calc(100% - 21.5px) with calc(27.78% - -13.33px) calc(100% - 25px),curve to calc(19.44% - -18.33px) calc(100% - 19.5px) with calc(22.22% - -16.67px) calc(100% - 18px),curve to calc(13.89% - -21.67px) calc(100% - 22.5px) with calc(16.67% - -20px) calc(100% - 21px),curve to calc(8.33% - -25px) calc(100% - 19.5px) with calc(11.11% - -23.33px) calc(100% - 24px),curve to calc(2.78% - -28.33px) calc(100% - 11px) with calc(5.56% - -26.67px) calc(100% - 15px),curve to 27.53px calc(100% - 16.03px) with 30px calc(100% - 7px),curve to 15.03px calc(100% - 27.53px) with 25.05px calc(100% - 25.05px),curve to 4px calc(91.67% - 25px) with 5px calc(100% - 30px),curve to 11.5px calc(75% - 15px) with 3px calc(83.33% - 20px),curve to 16px calc(58.33% - 5px) with 20px calc(66.67% - 10px),curve to 11.5px calc(41.67% - -5px) with 12px calc(50% - 0px),curve to 6.5px calc(25% - -15px) with 11px calc(33.33% - -10px),curve to 6px calc(8.33% - -25px) with 2px calc(16.67% - -20px),curve to 11.16px 21.16px with 10px 30px,curve to 21.16px 6.66px with 12.32px 12.32px); */
+}
+
+nav h1 {
+    font-size: 3em;
+}
+
+nav a {
+    -webkit-text-stroke: 1px black;
+    font-size: 2em;
+    text-decoration: none;
+    color: black;
+    margin: 0 1em;
+}
