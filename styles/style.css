@@ -1,0 +1,54 @@
+@import "styles/vars.css";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Bangers", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--dark-grey);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    padding: 1.5em 4em;
+}
+
+nav h1 {
+    font-size: 3em;
+}
+
+nav a {
+    font-size: 2em;
+    text-decoration: none;
+    margin: 0 1em;
+    color: var(--dark-grey);
+}
+
+#page1-container {
+    padding: 5em 10em;
+    display: flex;
+    gap: 3em;
+    align-items: center;
+    justify-content: center;
+}
+
+#page1-container img {
+    height: 35em;
+}
+
+#page1-container h1 {
+    font-size: 9em;
+}
+
+#page1-container p {
+    font-size: 2em;
+}
