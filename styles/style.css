@@ -25,13 +25,13 @@ nav {
     align-items: center;
     justify-content: space-between;
     position: fixed;
-    padding: 3em 10%;
+    padding: 2.5em 10%;
     background: white;
     width: 100%;
     top: 0;
     left: 0;
     z-index: 1;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-bottom: solid 10px black;
 }
 
 nav h1 {
@@ -48,21 +48,50 @@ nav a {
 #page1-container {
     height: 100%;
     display: flex;
-    gap: 3em;
+    gap: 5em;
     align-items: center;
     justify-content: center;
+    margin-bottom: 2em;
+}
+
+#page1-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #f0f0f0;
+    background-image: radial-gradient(#d0d0d0 15%, transparent 16%), radial-gradient(#d0d0d0 15%, transparent 16%);
+    background-size: 30px 30px;
+    z-index: -1;
 }
 
 #page1-container img {
     height: 35em;
+    filter: drop-shadow(15px 15px 0px #ffd700);
 }
 
 #page1-container h1 {
-    font-size: 9em;
+    font-size: 8rem;
+    line-height: 0.9;
+    color: #ffffff;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    transform: rotate(-3deg); 
+    text-shadow: 
+        -3px -3px 0 #000,  
+        3px -3px 0 #000,
+        -3px  3px 0 #000,
+        3px  3px 0 #000,
+        12px 12px 0 #ff007f; 
+    margin-bottom: 0.4em;
 }
 
 #page1-container p {
     font-size: 2em;
+    transform: rotate(-5deg);
+    box-shadow: 12px 12px #00e5ff;
 }
 
 .headers h1 {
