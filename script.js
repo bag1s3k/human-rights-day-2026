@@ -124,3 +124,27 @@ function renderWorkshops() {
 }
 
 renderWorkshops();
+
+const images = [
+    'images/vladimir_dzuro_bubble.png',
+    'images/jakub_zelenka_bubble.png',
+    'images/sylvia_tiryaki_bubble.png'
+];
+
+let currentIndex = -1;
+
+function changeImage() {
+    const imgElement = document.getElementById('rotating-image');
+    let nextIndex;
+
+    do {
+        nextIndex = Math.floor(Math.random() * images.length);
+    } while (nextIndex === currentIndex);
+
+    currentIndex = nextIndex;
+    imgElement.src = images[currentIndex];
+}
+
+window.onload = changeImage;
+
+setInterval(changeImage, 3000);
