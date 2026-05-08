@@ -112,9 +112,9 @@ function renderWorkshops() {
 renderWorkshops();
 
 const images = [
-    'images/vladimir_dzuro_bubble.png',
-    'images/jakub_zelenka_bubble.png',
-    'images/sylvia_tiryaki_bubble.png'
+    'images/vladimir_dzuro_bubble.webp',
+    'images/jakub_zelenka_bubble.webp',
+    'images/sylvia_tiryaki_bubble.webp'
 ];
 
 let currentIndex = -1;
