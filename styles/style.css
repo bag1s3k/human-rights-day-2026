@@ -210,7 +210,7 @@ nav a {
 .badge-room { background-color: #ff9900; }
 .badge-capacity { background-color: #ffffff; }
 
-table { box-shadow: 12px 12px black; margin-bottom: 2em;}
+table { box-shadow: 12px 12px black;}
 
 table, th, td {
     border: 5px solid black;
@@ -299,4 +299,51 @@ table, th, td {
     transform: translate(3px, 3px);
     box-shadow: 1px 1px 0px #000;
     background-color: #ffd700;
+}
+
+/* ------------------------------------------
+    RESPONSIVE DESIGN
+--------------------------------------------*/
+
+@media (max-width: 1024px) {
+    body {
+        padding: 0 3em;
+        overflow-x: visible;
+    }
+
+    nav {
+        padding: 1em 0;
+    }
+
+    nav h1 {
+        margin: 0;
+        font-size: 1.5em;
+    }
+
+    #page1-container h1 {
+        font-size: 5em;
+    }
+
+    #page1-container img {
+        height: 25em;
+    }
+
+    #page1-container p {
+        font-size: 1.3em;
+    }
+
+    .workshops-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .table-phone { 
+        display: inline-table;
+        width: 100%;
+    }
+
+    .table-pc { display: none; }
+
+    .pop-footer {
+        margin-top: 10em;
+    }
 }
