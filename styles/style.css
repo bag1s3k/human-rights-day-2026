@@ -1,3 +1,5 @@
+/* THIS IS UGLY AS HELL, RESPONSIVITY IS THE BIGGEST PIECE OF SHIT, I WOULD HAVE TO REWRITE EVERYTHING AND I KNOW ONLY BASICS SO... IT IS WHAT IT IS.  */
+
 @import "styles/vars.css";
 
 * {
@@ -424,6 +426,9 @@ table, th, td {
 }
 
 @media (max-width: 429px) {
+    body {
+        padding: 0 1em;
+    }
     nav {
         border-bottom: solid 4px black;
     }
