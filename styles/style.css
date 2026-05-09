@@ -213,12 +213,6 @@ nav a {
 .badge-room { background-color: #ff9900; }
 .badge-capacity { background-color: #ffffff; }
 
-#timetable-wrapper {
-    width: 100%;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-}
-
 table { 
     box-shadow: 8px 8px black;
 }
