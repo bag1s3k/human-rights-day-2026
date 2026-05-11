@@ -89,13 +89,45 @@ nav a {
         -3px  3px 0 #000,
         3px  3px 0 #000,
         12px 12px 0 #ff007f; 
-    margin-bottom: 0.4em;
+    margin-bottom: 0.5em;
+}
+
+#page1-container a {
+    text-decoration: none;
 }
 
 #page1-container p {
-    font-size: 2em;
+    font-size: 5em;
     transform: rotate(-5deg);
-    box-shadow: 12px 12px #00e5ff;
+    color: white;
+    text-shadow: 
+        -3px -3px 0 #000,  
+        3px -3px 0 #000,
+        -3px  3px 0 #000,
+        3px  3px 0 #000,
+        /* 9px 9px 0 #ff007f;  */
+        8px 8px 0 #009dff; 
+    font-weight: 900;
+    transition: 0.3s; 
+    display: inline-block;
+    white-space: nowrap;
+}
+
+#reverse-icon {
+    display: inline-block;
+    transform: scaleX(-1);
+    margin-left: 10px;
+    text-shadow: 
+        -3px -3px 0 #000,  
+        3px -3px 0 #000,
+        -3px  3px 0 #000,
+        3px  3px 0 #000,
+        -8px 8px 0 #009dff;
+}
+
+#page1-container p:hover {
+    transform: rotate(-5deg) scaleX(110%);
+    transition: 0.3s; 
 }
 
 .headers {
@@ -184,6 +216,11 @@ nav a {
     padding: 0.3rem 0.6rem;
     border: 3px solid #000000;
     transform: rotate(-2deg); 
+}
+
+#card-href {
+    text-decoration: none;
+    color: black;
 }
 
 .comic-description {
@@ -331,7 +368,7 @@ td {
     }
 }
 
-@media (max-width: 1168px) {
+@media (max-width: 1250px) {
     body {
         padding: 0 2em;
     }
@@ -341,11 +378,11 @@ td {
     }
 
     #page1-container h1 {
-        font-size: 5em;
+        font-size: 6em;
     }
 
     #page1-container p {
-        font-size: 1.5em;
+        font-size: 4em;
     }
 
     #page1-container img {
@@ -417,7 +454,7 @@ td {
     }
 
     #page1-container p {
-        font-size: 1.2em;
+        font-size: 3em;
     }
 
     #footer-anchor {
@@ -448,9 +485,5 @@ td {
 
     #page1-container img {
         height: 18em;
-    }
-
-    #page1-container p {
-        padding: 0.3em;
     }
 }

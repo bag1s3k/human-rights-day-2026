@@ -90,21 +90,21 @@ const container = document.getElementById('workshops-container');
 function renderWorkshops() {
   workshopsData.forEach(workshop => {
     
-    const cardHTML = `
-      <article class="comic-card">
-        <div class="comic-card-header">
-          <h3>${workshop.nazev}</h3>
-        </div>
-        <p class="comic-description">
-          ${workshop.anotace}
-        </p>
-        <div class="comic-card-footer">
-          <span class="comic-badge badge-tutor">${workshop.jmeno}</span>
-          <span class="comic-badge badge-room">Učebna: ${workshop.ucebna}</span>
-        </div>
-      </article>
-    `;
-
+      const cardHTML = `
+        <article class="comic-card">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSclbaGSBOj0e25thoWTBWU_DvtLKu8t17ANee2Y8CHfeuezug/viewform?usp=sharing&ouid=117155016150196780218" id="card-href" target="_blank" rel="noopener noreferrer">
+                <div class="comic-card-header">
+                    <h3>${workshop.nazev}</h3>
+                </div>
+                <p class="comic-description">${workshop.anotace}</p>
+                <div class="comic-card-footer">
+                    <span class="comic-badge badge-tutor">${workshop.jmeno}</span>
+                    <span class="comic-badge badge-room">Učebna: ${workshop.ucebna}</span>
+                </div>
+            </a>
+        </article>
+            `;
+            
     container.innerHTML += cardHTML;
   });
 }
