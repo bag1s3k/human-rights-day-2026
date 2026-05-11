@@ -38,7 +38,7 @@ const workshopsData = [
     {
         jmeno: "Hana Hrádková",
         nazev: "Jóga, vážně?",
-        anotace: "Cvičení jógy a lidská práva nejsou dvě zcela odlišné oblasti. Je to spojení tělesné a duchovní praxe. Zaměříme se na svobodu myšlení a představíme si techniky pro vnitřní klid, propojíme princip nenásilí s odpovědností a respektujícím chováním. Přijď s námi naplnit právo na odpočinek v době digitálního stresu.",
+        anotace: "Cvičení jógy a lidská práva nejsou dvě zcela odlišné oblasti. Je to spojení tělesné a duchovní praxe. Zaměříme se na svobodu myšlení a představíme si techniky pro vnitřní klid, propojíme princip nenásilí s odpovědností a respektujícím chováním. Přijď s námi naplnit právo na odpočinek v době digitálního stresu. <span style='font-weight: 900;'>Cvičební úbor s sebou</span>",
         ucebna: "malá posilovna"
     },
     {
