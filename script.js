@@ -12,7 +12,7 @@ const workshopsData = [
         ucebna: "venkovní učebna"
     },
     {
-        jmeno: "PhDr. Martina Kalčíková",
+        jmeno: "Martina Kalčíková",
         nazev: "Jáchymovské peklo a obávaná věznice v Uherském Hradišti",
         anotace: "Zjisti, jaké podmínky zažívali političtí vězni v 50. letech 20. století v obávané věznici v Uherském Hradišti a jak následně museli pracovat v uranových dolech v Jáchymově.",
         ucebna: "Salonek 2"
@@ -30,7 +30,7 @@ const workshopsData = [
         ucebna: "JZ6"
     },
     {
-        jmeno: "Mgr. Eva Svobodová",
+        jmeno: "Eva Svobodová",
         nazev: "Christofascism: When Laws are Based on Religion",
         anotace: "A look into the religiosity of the United States, from history to its influence on politics to how those same politics affect the rights of citizens. Run in English.",
         ucebna: "JZ1"
