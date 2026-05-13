@@ -4,3 +4,7 @@
 !.dev.vars.example
 .env*
 !.env.example
+
+# IDE's folders
+.vscode/
+.idea/
